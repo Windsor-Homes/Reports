@@ -1,0 +1,22 @@
+{
+    "name": "windsor-homes/windsor-reports",
+    "description": "Windsor's internal report building engine.",
+    "type": "library",
+    "license": "GNU General Public License v3.0",
+    "authors": [
+        {
+            "name": "LijahIde",
+            "email": "lijahide196@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WindsorHomes\\WindsorReports\\": "src",
+            "Windsor\\Reports\\": "src"
+        }
+    }
+}
